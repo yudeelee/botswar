@@ -1,0 +1,35 @@
+.HeaderMenu {
+  height: 80px;
+  background-color: #62a1ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+  li {
+    transition: all 0.5s;
+    border-bottom: 2px solid transparent;
+    border-radius: 20px;
+    &:hover {
+      background-color: #4f84d5;
+      border-bottom: 2px solid white;
+      box-shadow: 0px 8px 12px rgba($color: #fff, $alpha: 0.3);
+    }
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+  a {
+    display: block;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,21 @@
+.hero {
+  background: url('/img/Hero.webp');
+  background-size: cover;
+  background-position: right;
+  height: calc(100vh - 80px);
+  padding-top: 35px;
+  h1 {
+    font-family: 'Keania One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    margin: 0;
+    margin-left: 175px;
+    color: #62a1ff;
+  }
+  h2 {
+    margin-left: 175px;
+    font-size: 36px;
+    letter-spacing: 8px;
+  }
+}
